@@ -1,0 +1,7 @@
+mainClassName = 'in.srid.ApplicationOne'
+
+dependencies {
+    compile project(':core')
+
+    testCompile project(path: ':core', configuration: 'testRuntime')
+}
